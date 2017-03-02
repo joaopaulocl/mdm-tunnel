@@ -11,7 +11,7 @@ var net = require('net')
  * @param options.services
  *
  * @return MuxDemux Stream
- */
+ */   
 
 module.exports = function(options) {
   options = options || {}
